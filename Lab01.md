@@ -1,7 +1,7 @@
 ## Lab 01
 
-- Name:
-- Email:
+- Name: Donnell Smith
+- Email: smith.2883@wright.edu
 
 ## Part 1 Answers
 
