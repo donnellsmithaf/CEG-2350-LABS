@@ -47,14 +47,14 @@ For each, write the command used or answer the question posed.
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file:
-2. HostName:
-3. User:
-4. IdentityFile:
-5. `~/.ssh/config` contents:
+1. `ssh` command before configuring `config` file: ssh -i 2350key.pem ubuntu@54.145.149.159
+2. HostName: ubuntu@ip-10-0-0-25
+3. User: dsmith@DESKTOP-IV5MD8C
+4. IdentityFile: ~/.ssh
+5. `~/.ssh/config` contents: 
 
 ```
 Paste your config file entry here
 ```
 
-6. `ssh` command after configuring `config` file:
+6. `ssh` command after configuring `config` file: alias aws= "ssh -i 2350key.pem ubuntu@54.145.149.159"
