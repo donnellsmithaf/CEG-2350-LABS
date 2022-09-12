@@ -9,9 +9,9 @@ The answers for this section are to help you record what steps
 are needed to create a file locally (in your cloned repo)  
 and push them (sync) with GitHub
 
-1. Add a file for tracking: git add
-2. Commit changes: git commit
-3. Sync local commits with GitHub: git push
+1. Add a file for tracking: git add Lab02.md
+2. Commit changes: git commit Lab02.md
+3. Sync local commits with GitHub: git push git@github.com:donnellsmithaf/CEG-2350-LABS.git
 
 ## Part 2 Answers
 
