@@ -13,12 +13,12 @@
 
 ## Part 2 Answers
 
-1. sed -i 's/<html>/<stuff>/g' sedfile.html
-2. sed -i 's/<li>/-""/g' sedfile.html
-3. sed -i 's/<h1>/#""/g' sedfile.html
-4. sed -i 's/<h2>/##""/g' sedfile.html
-5. sed -i 's/<u1>,<html>/g' sedfile.html
-6. sed -i 's/Batches/Matches/g' sedfile.html
+1. sed -i 's/<html>/<stuff>/g' sedfile.html > sedfile.md
+2. sed -i 's/<li>/-""/g' sedfile.html > sedfile.md
+3. sed -i 's/<h1>/#""/g' sedfile.html > sedfile.md
+4. sed -i 's/<h2>/##""/g' sedfile.html > sedfile.md
+5. sed -i 's/<u1>,<html>/g' sedfile.html > sedfile.md
+6. sed -i 's/Batches/Matches/g' sedfile.html > sedfile.md
 
 ## Part 3 Answers
 
