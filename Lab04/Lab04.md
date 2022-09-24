@@ -28,6 +28,6 @@
 3. awk '/wright.edu/ {print $2, $1, $3}' records.txt
 4. awk '/wright.edu/, $6 == 1234 {print $2, "Favorite number is", $4}' records.txt
 5. awk '{gsub("space.edu","universe.edu", $3); print $0}' records.txt > update1.txt
-6. awk '{gsub("$6","NOT@PL@!NP@SSWORD", $6); print $0}' records.txt > update2.txt
+6. awk '{ gsub(/$6\./, "replace NOT@PL@!NP@SSWORD", $0); print $6 }' records.txt > update2.txt
 
 ## Part 3 Answers
