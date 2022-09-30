@@ -1,0 +1,14 @@
+#! /bin/bash
+
+bash namechange -h
+
+Usage: namechange -f find -r replace "string to modify"
+
+ -f The text to find in the filename
+ -r The replacement text for the new filename
+
+bash namechange -f "\s" -r "-" "hello world"
+hello-world
+
+bash namechange -f "er+" -r "error" "spellingerrrr"
+spellingerror
