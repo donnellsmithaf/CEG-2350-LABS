@@ -17,11 +17,11 @@
 2. File contents:
 vim test.txt
 ```
-**file contents here**
-```
-all classes are easy
+**all classes are easy
 all classes are hard
-all classes can be passed
+all classes can be passed**
+```
+
 ## Part 3 Answers
 
 1. cp test.txt DirA 
