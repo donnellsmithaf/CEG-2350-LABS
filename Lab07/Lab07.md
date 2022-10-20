@@ -6,12 +6,14 @@
 ## Part 1 Answers
 
 1. Steps to configure virtual hardware:
+	Display an image:
 2. ![Screenshot of VM settings]('First 2022-10-20.png')
 3. Steps to download an ISO:
 4. Steps to use ISO on VM:
 5. Steps to install your distribution:
 6. Steps to boot to disk after install:
 7. Steps to use full screen mode:
+	Display an image:
 8. ![Screenshot of VM running]('Second 2022-10-20.png')
 
 ## Part 2 Answers
