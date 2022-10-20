@@ -12,7 +12,7 @@
 5. Steps to install your distribution:
 6. Steps to boot to disk after install:
 7. Steps to use full screen mode:
-8. ![Screenshot of VM running](Lab07/ Second 2022-10-20.png)
+8. ![Screenshot of VM running](https://github.com/donnellsmithaf/CEG-2350-LABS/blob/c4631f2f87ed1e8b52f5001ee4e66cf53d8e187b/Lab07/Second%202022-10-20.png)
 
 ## Part 2 Answers
 
