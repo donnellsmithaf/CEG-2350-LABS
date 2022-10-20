@@ -6,13 +6,13 @@
 ## Part 1 Answers
 
 1. Steps to configure virtual hardware:
-2. ![Screenshot of VM settings](C:\Users\Donnell\VirtualBox VMs)
+2. ![Screenshot of VM settings](~/git_environment/CEG-2350-LABS/Lab07)
 3. Steps to download an ISO:
 4. Steps to use ISO on VM:
 5. Steps to install your distribution:
 6. Steps to boot to disk after install:
 7. Steps to use full screen mode:
-8. ![Screenshot of VM running](C:\Users\Donnell\VirtualBox VMs Second 2022-10-20.png)
+8. ![Screenshot of VM running](~/git_environment/CEG-2350-LABS/Lab07 'Second 2022-10-20.png')
 
 ## Part 2 Answers
 
