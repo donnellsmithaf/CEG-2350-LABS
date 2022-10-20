@@ -6,7 +6,7 @@
 ## Part 1 Answers
 
 1. Steps to configure virtual hardware:
-2. ![Screenshot of VM settings](Lab07/ First 2022-10-20.png)
+2. ![Screenshot of VM settings](https://github.com/donnellsmithaf/CEG-2350-LABS/blob/6c5c18f195af6e99a0f8455afb800369ab617c56/Lab07/First%202022-10-20.png)
 3. Steps to download an ISO:
 4. Steps to use ISO on VM:
 5. Steps to install your distribution:
