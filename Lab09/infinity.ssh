@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while :
+do
+		echo $"Still Going!!" >> still-going.txt
+		echo "Press <CTRL+C> to exit."
+sleep 15
+done
