@@ -6,3 +6,5 @@ do
 		echo "Press <CTRL+C> to exit."
 sleep 15
 done
+
+# comments in bash have a hashtag # at the start of the line followed by a space
