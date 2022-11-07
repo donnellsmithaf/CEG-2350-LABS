@@ -11,22 +11,22 @@
 
 1. Getting started
    - Command to find the PID: ps
-   - PID of "Terminal A": 1625(bash) 1603(ps)
-   - PID of "Terminal B": 6645(bash) 6675(ps)
+   - PID of "Terminal A": 1603(ps)
+   - PID of "Terminal B": 6675(ps)
 2. Using `./` to run `infinity` in Terminal B
-   - PID of script: 6645(bash) 6746(ps)
-   - Command to kill script: kill all
-   - Effects of running the script: Yes
+   - PID of script: 6746(ps)
+   - Command to kill script: kill -9 <6746>
+   - Effects of running the script: Yes, you can still use the Terminal if you run the script
 3. Using `source` to run `infinity` in Terminal B
-   - PID of script: 6645(bash) 6834(ps)
-   - Command to kill the script: kill all
-   - Effects of killing the script: Yes
+   - PID of script: 6834(ps)
+   - Command to kill the script: kill -9 <6834>
+   - Effects of killing the script: if you kill the correct PID it kills all operations
 4. Running `infinity` as a background job in Terminal B
    - Command to run script in background: source infinity.ssh
-   - Job ID of script: 
-   - PID of script: 6645(bash) 6887(ps)
-   - Command to kill script via job id: kill all
-   - Effects of exiting terminal: 
+   - Job ID of script: 6645(bash) 
+   - PID of script: 6887(ps)
+   - Command to kill script via job id: kill <6645>
+   - Effects of exiting terminal: if you exit from the terminal window, you kill any processes you started
 5. Run `infinity` in a `screen` or `tmux` session
    - Command(s) to run `infinity` in a screen session: source infinity.ssh
    - Detach from `screen` / `tmux` session:
