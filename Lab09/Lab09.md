@@ -29,10 +29,10 @@
    - Effects of exiting terminal: if you exit from the terminal window, you kill any processes you started
 5. Run `infinity` in a `screen` or `tmux` session
    - Command(s) to run `infinity` in a screen session: source infinity.ssh
-   - Detach from `screen` / `tmux` session:
-   - Command to show `screen` / `tmux` sessions:
-   - Effects of exiting terminal:
-   - Command / steps to kill the `screen` / `tmux` session:
+   - Detach from `screen` / `tmux` session: Ctrl + B then press D (press Ctrl+B let go then press D)
+   - Command to show `screen` / `tmux` sessions: Ctrl + A then press " (press Ctrl+A let go then press ")
+   - Effects of exiting terminal: 
+   - Command / steps to kill the `screen` / `tmux` session: To kill when attached Ctrl + B and X (To kill otherwise Ctrl + B and Y)
 
 ## Part 3 Answers
 
