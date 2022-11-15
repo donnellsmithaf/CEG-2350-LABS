@@ -9,11 +9,11 @@
 
 ## Part 2 Answers
 
-1. Compiler:
-   - Location:
-   - Version:
-2. Command to compile:
-3. Command to run:
+1. Compiler: Java
+   - Location: /usr/bin/java
+   - Version: Java 8
+2. Command to compile: javac <source-repeat.java>
+3. Command to run: java <file-outputted-by-previous-command>
 
 - Add your compiled code to your Lab10 folder in GitHub
 
