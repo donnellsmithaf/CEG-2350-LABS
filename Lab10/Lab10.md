@@ -13,7 +13,7 @@
    - Location: /usr/bin/java
    - Version: Java 8
 2. Command to compile: javac <source-repeat.java>
-3. Command to run: java <file-outputted-by-previous-command>
+3. Command to run: java <Makefile.class>
 
 - Add your compiled code to your Lab10 folder in GitHub
 
