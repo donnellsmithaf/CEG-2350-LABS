@@ -35,29 +35,33 @@
 1. Download the package from `https://github.com/pattonsgirl/Fall2021-CEG2350/raw/main/Labs/Lab09/ninvaders-0.1.1.tar.gz`
 
 ```
-Replace with command(s)
+sudo apt-get update -y
 ```
 
 2. Extract to your home directory:
 
 ```
-Replace with command(s)
+sudo apt-get install -y ninvaders 
 ```
 
 3. Install `gcc` and `ncurses` library:
 
 ```
-Replace with command(s)
+sudo apt-get install libncurses5-dev libncursesw5-dev
+sudo yum install ncurses-devel
+sudo dnf install ncurses-devel
 ```
 
 4. Compile ninvaders
 
 ```
-Replace with command(s)
+apt-get install cmake libncurses-dev
+cmake -B cmake_build
+cmake --build cmake_build -j2
 ```
 
 5. Play ninvaders
 
 ```
-Replace with command(s)
+Just press the cursor left/right keys to move it left or right, and press space to fire. The esc-key lets you quit at any time you want.
 ```
