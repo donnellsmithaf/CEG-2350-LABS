@@ -4,4 +4,6 @@ echo Hello, who am I talking to?
 
 read varname
 
-echo It\'s nice to meet you $varname
+echo It\'s nice to meet you $varname >> Makefile.class
+
+
