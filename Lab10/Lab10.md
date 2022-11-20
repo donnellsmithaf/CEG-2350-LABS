@@ -63,5 +63,6 @@ cmake --build cmake_build -j2
 5. Play ninvaders
 
 ```
+Type 'open-invaders' to start the game. The -f switch makes it open in full screen and the -w switch makes it open in a windowed screen.
 Just press the cursor left/right keys to move it left or right, and press space to fire. The esc-key lets you quit at any time you want.
 ```
