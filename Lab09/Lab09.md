@@ -29,20 +29,20 @@
    - Effects of exiting terminal: if you exit from the terminal window, you kill any processes you started
 5. Run `infinity` in a `screen` or `tmux` session
    - Command(s) to run `infinity` in a screen session: source infinity.ssh
-   - Detach from `screen` / `tmux` session:
-   - Command to show `screen` / `tmux` sessions:
-   - Effects of exiting terminal:
-   - Command / steps to kill the `screen` / `tmux` session:
+   - Detach from `screen` / `tmux` session: Ctrl + B then press D (press Ctrl+B let go then press D)
+   - Command to show `screen` / `tmux` sessions: Ctrl + A then press " (press Ctrl+A let go then press ")
+   - Effects of exiting terminal: If we close the session/ window with infinity still running it stops because the terminal is closed 
+   - Command / steps to kill the `screen` / `tmux` session: To kill when attached Ctrl + B and X (To kill otherwise Ctrl + B and Y)
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
+1. git checkout -b updates
+2. using the command line git checkout -b updates automatically switched my branch from main to updates (git checkout updates)
+3. vim infinity (# comments in bash have a hashtag # at the start of the line followed by a space)
+4. git push --set-upstream origin updates
 5. Confirmed?
-6.
-7.
-8.
+6. git checkout main
+7. git merge updates 
+8. git push
 9. Confirmed?
-10.
+10. git status
