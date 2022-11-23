@@ -21,7 +21,7 @@
    - How many packets were captured? 24402
    - Looking through the output, what traffic are you seeing? If your server initiates connections to an unknown host, it might be a sign that your server has been compromised. With the help of tcpdump and WinDump, you can easily capture outbound TCP packets on Linux and Windows.
 
-2. Fancy `tcpdump` command:
+2. Fancy `tcpdump` command: sudo tcpdump -i eth0 host www.google.com
 
 3. Capturing `google.com` traffic:
    - Was there a difference in output from `curl` when using `http` or `https`? When Curl sends a request to an HTTPS URL, it checks the SSL certificate against the certificate store of the local CA.
@@ -42,12 +42,3 @@
 4. What's playing? Rick Astley - Never Gonna Give You Up (Official Music Video), I found out by "cat"ing my index.html and finding the URL then copy and pasting it in my search bar.
 5. Command to show `LISTEN`ing processes: lsof -i :80
 6. Command to `kill`: kill all
-
-## Extra Credit Answers
-
-1. How to find hostname for `EIP`:
-2. Port scan command:
-   - List of open ports:
-3. How to view webpage:
-4. Command to find SSH version:
-   - Version information:
