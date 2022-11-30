@@ -5,29 +5,29 @@
 
 ## Part 1 Answers:
 
-1. `tar` options:
-   - `-c`
-   - `-v`
-   - `-f`
-   - `-z`
-   - `-x`
-2. Command(s):
+1. `tar` options: retrieved from `man tar`
+   - `-c` Create a new archive
+   - `-v` Verbose output 
+   - `-f` Use archive file
+   - `-z` Filter the archive through gzip
+   - `-x` Extract files from an archive
+2. Command(s): tar -cvf Lab01.md ~/git_environment/CEG-2350-LABS/
 
 ## Part 2 Answers:
 
-1. Command:
-2. `sftp` options:
-   - `ls`
-   - `lls`
-   - `put`
-   - `get`
-3. Command(s):
-4. Command(s):
+1. Command: sftp -i 2350key.pem ubuntu@54.145.149.159
+2. `sftp` options: retrieved from `man sftp`
+   - `ls` list directory contents
+   - `lls` Display local directory listing of either path or current directory if path is not specified.
+   - `put` Upload local-path and store it on the remote machine. If the remote path name is not specified, it is given the same name it has on the local machine. 
+   - `get` Retrieve the remote-path and store it on the local machine.
+3. Command(s): tar -f Lab01.md.tar.gz
+4. Command(s): tar -x Lab01.md.tar.gz
 
 ## Part 3 Answers:
 
-1.
-2.
+1. adduser JohnDoe
+2. ssh-keygen -> 
 3.
 4.
 
@@ -38,9 +38,9 @@
    - `130.108.0.0 - 130.108.255.255` =
    - `10.0.0.0 - 10.0.0.255` =
    - `your_public_ip - your_public_ip` =
-2. How you confirmed current rules are bad, and why are they bad.
+2. How you confirmed current rules are bad, and why are they bad: By default, a security group includes an outbound rule that allows all outbound traffic and You can specify specific separate rules for inbound and outbound traffic are true: Default security groups allow all outbound traffic, and you specify separate inbound and outbound rules.
 3. Your implementation details and **screenshot**
-4. Something invalid:
+4. Something invalid: Valid IP address must be in the form of A.B.C.D, where A,B,C and D are numbers from 0-255. The numbers cannot be 0 prefixed unless they are 0.
 
 ## Extra Credit Answers:
 
