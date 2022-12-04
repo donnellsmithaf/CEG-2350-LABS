@@ -46,8 +46,8 @@
 
 ### Solve the conflict
 
-1.
-2.
-3.
+1. Merging takes your branch changes and implements them into the main branch. Depending on the commit history, Git performs merges two ways: fast-forward and three-way merge.
+2. I see the merge did take affect, both lines i typed up are in the file.
+3. You can resolve simple merge conflicts that involve competing line changes on GitHub, using the conflict editor.
 4.
 5.
