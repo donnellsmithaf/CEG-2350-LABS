@@ -27,17 +27,17 @@
 ## Part 3 Answers:
 
 1. adduser JohnDoe
-2. ssh-keygen -> 
-3.
-4.
+2. ssh-keygen 
+3. I copied my public & private key and placed it in my ~/.ssh/authorized_keys
+4. ssh -i 2350key.pem ubuntu@54.145.149.159
 
 ## Part 4 Answers
 
 1. Translate to network prefixes + CIDR notation:
    - Sample: `10.0.0.0 - 10.0.1.255` = `10.0.0.0/23` OR `10.0.1.0/23`
-   - `130.108.0.0 - 130.108.255.255` =
-   - `10.0.0.0 - 10.0.0.255` =
-   - `your_public_ip - your_public_ip` =
+   - `130.108.0.0 - 130.108.255.255` = 130.108.0.0/16
+   - `10.0.0.0 - 10.0.0.255` = 10.0.0.0/24
+   - `your_public_ip - your_public_ip` = ?
 2. How you confirmed current rules are bad, and why are they bad: By default, a security group includes an outbound rule that allows all outbound traffic and You can specify specific separate rules for inbound and outbound traffic are true: Default security groups allow all outbound traffic, and you specify separate inbound and outbound rules.
 3. Your implementation details and **screenshot**
 4. Something invalid: Valid IP address must be in the form of A.B.C.D, where A,B,C and D are numbers from 0-255. The numbers cannot be 0 prefixed unless they are 0.
